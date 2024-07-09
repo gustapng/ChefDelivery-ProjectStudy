@@ -7,18 +7,122 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC01284A2C3769D50053C196 /* coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = EC01281D2C3769D30053C196 /* coffee.png */; };
+		EC01284B2C3769D50053C196 /* margherita_pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = EC01281E2C3769D30053C196 /* margherita_pizza.png */; };
+		EC01284C2C3769D50053C196 /* picanha.png in Resources */ = {isa = PBXBuildFile; fileRef = EC01281F2C3769D30053C196 /* picanha.png */; };
+		EC01284D2C3769D50053C196 /* ribs.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128202C3769D40053C196 /* ribs.png */; };
+		EC01284E2C3769D50053C196 /* soda.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128212C3769D40053C196 /* soda.png */; };
+		EC01284F2C3769D50053C196 /* spaghetti_carbonara.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128222C3769D40053C196 /* spaghetti_carbonara.png */; };
+		EC0128502C3769D50053C196 /* carbron-header.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128232C3769D40053C196 /* carbron-header.png */; };
+		EC0128512C3769D50053C196 /* acai-panda-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128242C3769D40053C196 /* acai-panda-logo.png */; };
+		EC0128522C3769D50053C196 /* bebidas.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128252C3769D40053C196 /* bebidas.png */; };
+		EC0128532C3769D50053C196 /* gourmet.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128262C3769D40053C196 /* gourmet.png */; };
+		EC0128542C3769D50053C196 /* descontos.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128272C3769D40053C196 /* descontos.png */; };
+		EC0128552C3769D50053C196 /* french_bread.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128282C3769D40053C196 /* french_bread.png */; };
+		EC0128562C3769D50053C196 /* vanilla_ice_cream.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128292C3769D40053C196 /* vanilla_ice_cream.png */; };
+		EC0128572C3769D50053C196 /* hamburguer.png in Resources */ = {isa = PBXBuildFile; fileRef = EC01282A2C3769D40053C196 /* hamburguer.png */; };
+		EC0128582C3769D50053C196 /* mercado.png in Resources */ = {isa = PBXBuildFile; fileRef = EC01282B2C3769D40053C196 /* mercado.png */; };
+		EC0128592C3769D50053C196 /* large_acai.png in Resources */ = {isa = PBXBuildFile; fileRef = EC01282C2C3769D40053C196 /* large_acai.png */; };
+		EC01285A2C3769D50053C196 /* strawberry_smoothie.png in Resources */ = {isa = PBXBuildFile; fileRef = EC01282D2C3769D40053C196 /* strawberry_smoothie.png */; };
+		EC01285B2C3769D50053C196 /* bakery-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EC01282E2C3769D40053C196 /* bakery-logo.png */; };
+		EC01285C2C3769D50053C196 /* bakery-header.png in Resources */ = {isa = PBXBuildFile; fileRef = EC01282F2C3769D40053C196 /* bakery-header.png */; };
+		EC01285D2C3769D50053C196 /* medium_acai.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128302C3769D40053C196 /* medium_acai.png */; };
+		EC01285E2C3769D50053C196 /* fraldinha.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128312C3769D40053C196 /* fraldinha.png */; };
+		EC01285F2C3769D50053C196 /* food-court-header.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128322C3769D40053C196 /* food-court-header.png */; };
+		EC0128602C3769D50053C196 /* banana_cocoa_smoothie.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128332C3769D40053C196 /* banana_cocoa_smoothie.png */; };
+		EC0128612C3769D50053C196 /* classic_burger.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128342C3769D40053C196 /* classic_burger.png */; };
+		EC0128622C3769D50053C196 /* bacon_burger.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128352C3769D40053C196 /* bacon_burger.png */; };
+		EC0128632C3769D50053C196 /* food-court-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128362C3769D40053C196 /* food-court-logo.png */; };
+		EC0128642C3769D50053C196 /* carbron-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128372C3769D50053C196 /* carbron-logo.png */; };
+		EC0128652C3769D50053C196 /* petshop.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128382C3769D50053C196 /* petshop.png */; };
+		EC0128662C3769D50053C196 /* sweet_bread.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128392C3769D50053C196 /* sweet_bread.png */; };
+		EC0128672C3769D50053C196 /* brazilian-meal-banner.png in Resources */ = {isa = PBXBuildFile; fileRef = EC01283A2C3769D50053C196 /* brazilian-meal-banner.png */; };
+		EC0128682C3769D50053C196 /* barbecue-banner.png in Resources */ = {isa = PBXBuildFile; fileRef = EC01283B2C3769D50053C196 /* barbecue-banner.png */; };
+		EC0128692C3769D50053C196 /* acai-panda-header.png in Resources */ = {isa = PBXBuildFile; fileRef = EC01283C2C3769D50053C196 /* acai-panda-header.png */; };
+		EC01286A2C3769D50053C196 /* monstro-burger-header.png in Resources */ = {isa = PBXBuildFile; fileRef = EC01283D2C3769D50053C196 /* monstro-burger-header.png */; };
+		EC01286B2C3769D50053C196 /* maminha.png in Resources */ = {isa = PBXBuildFile; fileRef = EC01283E2C3769D50053C196 /* maminha.png */; };
+		EC01286C2C3769D50053C196 /* lasagna.png in Resources */ = {isa = PBXBuildFile; fileRef = EC01283F2C3769D50053C196 /* lasagna.png */; };
+		EC01286D2C3769D50053C196 /* monstro-burger-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128402C3769D50053C196 /* monstro-burger-logo.png */; };
+		EC01286E2C3769D50053C196 /* chocolate_cake_slice.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128412C3769D50053C196 /* chocolate_cake_slice.png */; };
+		EC01286F2C3769D50053C196 /* farmacia.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128422C3769D50053C196 /* farmacia.png */; };
+		EC0128702C3769D50053C196 /* four_cheeses_pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128432C3769D50053C196 /* four_cheeses_pizza.png */; };
+		EC0128712C3769D50053C196 /* mixed_grill.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128442C3769D50053C196 /* mixed_grill.png */; };
+		EC0128722C3769D50053C196 /* small_acai.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128452C3769D50053C196 /* small_acai.png */; };
+		EC0128732C3769D50053C196 /* pokes-banner.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128462C3769D50053C196 /* pokes-banner.png */; };
+		EC0128742C3769D50053C196 /* pepperoni_pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128472C3769D50053C196 /* pepperoni_pizza.png */; };
+		EC0128752C3769D50053C196 /* croissant.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128482C3769D50053C196 /* croissant.png */; };
+		EC0128762C3769D50053C196 /* fries.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0128492C3769D50053C196 /* fries.png */; };
+		EC0128782C376A570053C196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC0128772C376A570053C196 /* Assets.xcassets */; };
+		EC01287B2C376CDF0053C196 /* OrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC01287A2C376CDF0053C196 /* OrderType.swift */; };
+		EC01287D2C376D6D0053C196 /* DataSourceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC01287C2C376D6D0053C196 /* DataSourceMock.swift */; };
+		EC01287F2C3771C50053C196 /* OrderTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC01287E2C3771C50053C196 /* OrderTypeView.swift */; };
+		EC0128822C377D360053C196 /* CarouselItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0128812C377D360053C196 /* CarouselItemView.swift */; };
+		EC3A711D2C3CC7F8007F4F0A /* CarouselTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A711C2C3CC7F8007F4F0A /* CarouselTabView.swift */; };
 		ECA36ED82C36139E00FDF9DC /* ChefDelivery_ProjectStudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA36ED72C36139E00FDF9DC /* ChefDelivery_ProjectStudyApp.swift */; };
 		ECA36EDA2C36139E00FDF9DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA36ED92C36139E00FDF9DC /* ContentView.swift */; };
-		ECA36EDC2C36139F00FDF9DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA36EDB2C36139F00FDF9DC /* Assets.xcassets */; };
 		ECA36EDF2C36139F00FDF9DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA36EDE2C36139F00FDF9DC /* Preview Assets.xcassets */; };
+		ECA36EE92C36173400FDF9DC /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA36EE82C36173400FDF9DC /* NavigationBar.swift */; };
+		ECA36EEC2C361D7100FDF9DC /* OrderTypeGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA36EEB2C361D7100FDF9DC /* OrderTypeGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC01281D2C3769D30053C196 /* coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coffee.png; sourceTree = "<group>"; };
+		EC01281E2C3769D30053C196 /* margherita_pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = margherita_pizza.png; sourceTree = "<group>"; };
+		EC01281F2C3769D30053C196 /* picanha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picanha.png; sourceTree = "<group>"; };
+		EC0128202C3769D40053C196 /* ribs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ribs.png; sourceTree = "<group>"; };
+		EC0128212C3769D40053C196 /* soda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soda.png; sourceTree = "<group>"; };
+		EC0128222C3769D40053C196 /* spaghetti_carbonara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spaghetti_carbonara.png; sourceTree = "<group>"; };
+		EC0128232C3769D40053C196 /* carbron-header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "carbron-header.png"; sourceTree = "<group>"; };
+		EC0128242C3769D40053C196 /* acai-panda-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "acai-panda-logo.png"; sourceTree = "<group>"; };
+		EC0128252C3769D40053C196 /* bebidas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bebidas.png; sourceTree = "<group>"; };
+		EC0128262C3769D40053C196 /* gourmet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gourmet.png; sourceTree = "<group>"; };
+		EC0128272C3769D40053C196 /* descontos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = descontos.png; sourceTree = "<group>"; };
+		EC0128282C3769D40053C196 /* french_bread.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = french_bread.png; sourceTree = "<group>"; };
+		EC0128292C3769D40053C196 /* vanilla_ice_cream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vanilla_ice_cream.png; sourceTree = "<group>"; };
+		EC01282A2C3769D40053C196 /* hamburguer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamburguer.png; sourceTree = "<group>"; };
+		EC01282B2C3769D40053C196 /* mercado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mercado.png; sourceTree = "<group>"; };
+		EC01282C2C3769D40053C196 /* large_acai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = large_acai.png; sourceTree = "<group>"; };
+		EC01282D2C3769D40053C196 /* strawberry_smoothie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strawberry_smoothie.png; sourceTree = "<group>"; };
+		EC01282E2C3769D40053C196 /* bakery-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bakery-logo.png"; sourceTree = "<group>"; };
+		EC01282F2C3769D40053C196 /* bakery-header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bakery-header.png"; sourceTree = "<group>"; };
+		EC0128302C3769D40053C196 /* medium_acai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medium_acai.png; sourceTree = "<group>"; };
+		EC0128312C3769D40053C196 /* fraldinha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fraldinha.png; sourceTree = "<group>"; };
+		EC0128322C3769D40053C196 /* food-court-header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "food-court-header.png"; sourceTree = "<group>"; };
+		EC0128332C3769D40053C196 /* banana_cocoa_smoothie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banana_cocoa_smoothie.png; sourceTree = "<group>"; };
+		EC0128342C3769D40053C196 /* classic_burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = classic_burger.png; sourceTree = "<group>"; };
+		EC0128352C3769D40053C196 /* bacon_burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bacon_burger.png; sourceTree = "<group>"; };
+		EC0128362C3769D40053C196 /* food-court-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "food-court-logo.png"; sourceTree = "<group>"; };
+		EC0128372C3769D50053C196 /* carbron-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "carbron-logo.png"; sourceTree = "<group>"; };
+		EC0128382C3769D50053C196 /* petshop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = petshop.png; sourceTree = "<group>"; };
+		EC0128392C3769D50053C196 /* sweet_bread.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sweet_bread.png; sourceTree = "<group>"; };
+		EC01283A2C3769D50053C196 /* brazilian-meal-banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brazilian-meal-banner.png"; sourceTree = "<group>"; };
+		EC01283B2C3769D50053C196 /* barbecue-banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barbecue-banner.png"; sourceTree = "<group>"; };
+		EC01283C2C3769D50053C196 /* acai-panda-header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "acai-panda-header.png"; sourceTree = "<group>"; };
+		EC01283D2C3769D50053C196 /* monstro-burger-header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monstro-burger-header.png"; sourceTree = "<group>"; };
+		EC01283E2C3769D50053C196 /* maminha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maminha.png; sourceTree = "<group>"; };
+		EC01283F2C3769D50053C196 /* lasagna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lasagna.png; sourceTree = "<group>"; };
+		EC0128402C3769D50053C196 /* monstro-burger-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monstro-burger-logo.png"; sourceTree = "<group>"; };
+		EC0128412C3769D50053C196 /* chocolate_cake_slice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chocolate_cake_slice.png; sourceTree = "<group>"; };
+		EC0128422C3769D50053C196 /* farmacia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = farmacia.png; sourceTree = "<group>"; };
+		EC0128432C3769D50053C196 /* four_cheeses_pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = four_cheeses_pizza.png; sourceTree = "<group>"; };
+		EC0128442C3769D50053C196 /* mixed_grill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mixed_grill.png; sourceTree = "<group>"; };
+		EC0128452C3769D50053C196 /* small_acai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = small_acai.png; sourceTree = "<group>"; };
+		EC0128462C3769D50053C196 /* pokes-banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pokes-banner.png"; sourceTree = "<group>"; };
+		EC0128472C3769D50053C196 /* pepperoni_pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pepperoni_pizza.png; sourceTree = "<group>"; };
+		EC0128482C3769D50053C196 /* croissant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = croissant.png; sourceTree = "<group>"; };
+		EC0128492C3769D50053C196 /* fries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fries.png; sourceTree = "<group>"; };
+		EC0128772C376A570053C196 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "ChefDelivery-ProjectStudy/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		EC01287A2C376CDF0053C196 /* OrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderType.swift; sourceTree = "<group>"; };
+		EC01287C2C376D6D0053C196 /* DataSourceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceMock.swift; sourceTree = "<group>"; };
+		EC01287E2C3771C50053C196 /* OrderTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeView.swift; sourceTree = "<group>"; };
+		EC0128812C377D360053C196 /* CarouselItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselItemView.swift; sourceTree = "<group>"; };
+		EC3A711C2C3CC7F8007F4F0A /* CarouselTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabView.swift; sourceTree = "<group>"; };
 		ECA36ED42C36139E00FDF9DC /* ChefDelivery-ProjectStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChefDelivery-ProjectStudy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECA36ED72C36139E00FDF9DC /* ChefDelivery_ProjectStudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefDelivery_ProjectStudyApp.swift; sourceTree = "<group>"; };
 		ECA36ED92C36139E00FDF9DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		ECA36EDB2C36139F00FDF9DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECA36EDE2C36139F00FDF9DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECA36EE82C36173400FDF9DC /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		ECA36EEB2C361D7100FDF9DC /* OrderTypeGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +136,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC01281C2C3769C40053C196 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				EC01283C2C3769D50053C196 /* acai-panda-header.png */,
+				EC0128242C3769D40053C196 /* acai-panda-logo.png */,
+				EC0128352C3769D40053C196 /* bacon_burger.png */,
+				EC01282F2C3769D40053C196 /* bakery-header.png */,
+				EC01282E2C3769D40053C196 /* bakery-logo.png */,
+				EC0128332C3769D40053C196 /* banana_cocoa_smoothie.png */,
+				EC01283B2C3769D50053C196 /* barbecue-banner.png */,
+				EC0128252C3769D40053C196 /* bebidas.png */,
+				EC01283A2C3769D50053C196 /* brazilian-meal-banner.png */,
+				EC0128232C3769D40053C196 /* carbron-header.png */,
+				EC0128372C3769D50053C196 /* carbron-logo.png */,
+				EC0128412C3769D50053C196 /* chocolate_cake_slice.png */,
+				EC0128342C3769D40053C196 /* classic_burger.png */,
+				EC01281D2C3769D30053C196 /* coffee.png */,
+				EC0128482C3769D50053C196 /* croissant.png */,
+				EC0128272C3769D40053C196 /* descontos.png */,
+				EC0128422C3769D50053C196 /* farmacia.png */,
+				EC0128322C3769D40053C196 /* food-court-header.png */,
+				EC0128362C3769D40053C196 /* food-court-logo.png */,
+				EC0128432C3769D50053C196 /* four_cheeses_pizza.png */,
+				EC0128312C3769D40053C196 /* fraldinha.png */,
+				EC0128282C3769D40053C196 /* french_bread.png */,
+				EC0128492C3769D50053C196 /* fries.png */,
+				EC0128262C3769D40053C196 /* gourmet.png */,
+				EC01282A2C3769D40053C196 /* hamburguer.png */,
+				EC01282C2C3769D40053C196 /* large_acai.png */,
+				EC01283F2C3769D50053C196 /* lasagna.png */,
+				EC01283E2C3769D50053C196 /* maminha.png */,
+				EC01281E2C3769D30053C196 /* margherita_pizza.png */,
+				EC0128302C3769D40053C196 /* medium_acai.png */,
+				EC01282B2C3769D40053C196 /* mercado.png */,
+				EC0128442C3769D50053C196 /* mixed_grill.png */,
+				EC01283D2C3769D50053C196 /* monstro-burger-header.png */,
+				EC0128402C3769D50053C196 /* monstro-burger-logo.png */,
+				EC0128472C3769D50053C196 /* pepperoni_pizza.png */,
+				EC0128382C3769D50053C196 /* petshop.png */,
+				EC01281F2C3769D30053C196 /* picanha.png */,
+				EC0128462C3769D50053C196 /* pokes-banner.png */,
+				EC0128202C3769D40053C196 /* ribs.png */,
+				EC0128452C3769D50053C196 /* small_acai.png */,
+				EC0128212C3769D40053C196 /* soda.png */,
+				EC0128222C3769D40053C196 /* spaghetti_carbonara.png */,
+				EC01282D2C3769D40053C196 /* strawberry_smoothie.png */,
+				EC0128392C3769D50053C196 /* sweet_bread.png */,
+				EC0128292C3769D40053C196 /* vanilla_ice_cream.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		EC0128792C376CA30053C196 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC01287A2C376CDF0053C196 /* OrderType.swift */,
+				EC01287C2C376D6D0053C196 /* DataSourceMock.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC0128802C377D0F0053C196 /* CarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				EC0128812C377D360053C196 /* CarouselItemView.swift */,
+				EC3A711C2C3CC7F8007F4F0A /* CarouselTabView.swift */,
+			);
+			path = CarouselView;
+			sourceTree = "<group>";
+		};
 		ECA36ECB2C36139E00FDF9DC = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +225,13 @@
 		ECA36ED62C36139E00FDF9DC /* ChefDelivery-ProjectStudy */ = {
 			isa = PBXGroup;
 			children = (
-				ECA36ED72C36139E00FDF9DC /* ChefDelivery_ProjectStudyApp.swift */,
-				ECA36ED92C36139E00FDF9DC /* ContentView.swift */,
-				ECA36EDB2C36139F00FDF9DC /* Assets.xcassets */,
+				ECA36EE72C36170A00FDF9DC /* App */,
+				EC0128792C376CA30053C196 /* Model */,
+				ECA36EE62C36170000FDF9DC /* NavigationBar */,
+				ECA36EEA2C361D4400FDF9DC /* GridView */,
+				EC0128802C377D0F0053C196 /* CarouselView */,
+				EC0128772C376A570053C196 /* Assets.xcassets */,
+				EC01281C2C3769C40053C196 /* assets */,
 				ECA36EDD2C36139F00FDF9DC /* Preview Content */,
 			);
 			path = "ChefDelivery-ProjectStudy";
@@ -65,6 +243,32 @@
 				ECA36EDE2C36139F00FDF9DC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ECA36EE62C36170000FDF9DC /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				ECA36EE82C36173400FDF9DC /* NavigationBar.swift */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		ECA36EE72C36170A00FDF9DC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ECA36ED72C36139E00FDF9DC /* ChefDelivery_ProjectStudyApp.swift */,
+				ECA36ED92C36139E00FDF9DC /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		ECA36EEA2C361D4400FDF9DC /* GridView */ = {
+			isa = PBXGroup;
+			children = (
+				ECA36EEB2C361D7100FDF9DC /* OrderTypeGridView.swift */,
+				EC01287E2C3771C50053C196 /* OrderTypeView.swift */,
+			);
+			path = GridView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +329,53 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC0128602C3769D50053C196 /* banana_cocoa_smoothie.png in Resources */,
+				EC0128752C3769D50053C196 /* croissant.png in Resources */,
+				EC0128522C3769D50053C196 /* bebidas.png in Resources */,
+				EC0128682C3769D50053C196 /* barbecue-banner.png in Resources */,
+				EC0128512C3769D50053C196 /* acai-panda-logo.png in Resources */,
+				EC01285B2C3769D50053C196 /* bakery-logo.png in Resources */,
+				EC0128732C3769D50053C196 /* pokes-banner.png in Resources */,
+				EC01285A2C3769D50053C196 /* strawberry_smoothie.png in Resources */,
+				EC01285C2C3769D50053C196 /* bakery-header.png in Resources */,
+				EC0128652C3769D50053C196 /* petshop.png in Resources */,
+				EC0128662C3769D50053C196 /* sweet_bread.png in Resources */,
+				EC0128622C3769D50053C196 /* bacon_burger.png in Resources */,
+				EC01286A2C3769D50053C196 /* monstro-burger-header.png in Resources */,
+				EC01285D2C3769D50053C196 /* medium_acai.png in Resources */,
+				EC0128642C3769D50053C196 /* carbron-logo.png in Resources */,
+				EC0128542C3769D50053C196 /* descontos.png in Resources */,
 				ECA36EDF2C36139F00FDF9DC /* Preview Assets.xcassets in Resources */,
-				ECA36EDC2C36139F00FDF9DC /* Assets.xcassets in Resources */,
+				EC01284D2C3769D50053C196 /* ribs.png in Resources */,
+				EC0128502C3769D50053C196 /* carbron-header.png in Resources */,
+				EC0128722C3769D50053C196 /* small_acai.png in Resources */,
+				EC01284F2C3769D50053C196 /* spaghetti_carbonara.png in Resources */,
+				EC01284E2C3769D50053C196 /* soda.png in Resources */,
+				EC0128562C3769D50053C196 /* vanilla_ice_cream.png in Resources */,
+				EC0128632C3769D50053C196 /* food-court-logo.png in Resources */,
+				EC0128782C376A570053C196 /* Assets.xcassets in Resources */,
+				EC0128582C3769D50053C196 /* mercado.png in Resources */,
+				EC01284A2C3769D50053C196 /* coffee.png in Resources */,
+				EC01286E2C3769D50053C196 /* chocolate_cake_slice.png in Resources */,
+				EC0128672C3769D50053C196 /* brazilian-meal-banner.png in Resources */,
+				EC0128712C3769D50053C196 /* mixed_grill.png in Resources */,
+				EC0128702C3769D50053C196 /* four_cheeses_pizza.png in Resources */,
+				EC0128612C3769D50053C196 /* classic_burger.png in Resources */,
+				EC0128572C3769D50053C196 /* hamburguer.png in Resources */,
+				EC0128692C3769D50053C196 /* acai-panda-header.png in Resources */,
+				EC01286F2C3769D50053C196 /* farmacia.png in Resources */,
+				EC0128742C3769D50053C196 /* pepperoni_pizza.png in Resources */,
+				EC01284C2C3769D50053C196 /* picanha.png in Resources */,
+				EC01285E2C3769D50053C196 /* fraldinha.png in Resources */,
+				EC0128762C3769D50053C196 /* fries.png in Resources */,
+				EC01286C2C3769D50053C196 /* lasagna.png in Resources */,
+				EC0128552C3769D50053C196 /* french_bread.png in Resources */,
+				EC01285F2C3769D50053C196 /* food-court-header.png in Resources */,
+				EC01284B2C3769D50053C196 /* margherita_pizza.png in Resources */,
+				EC01286D2C3769D50053C196 /* monstro-burger-logo.png in Resources */,
+				EC01286B2C3769D50053C196 /* maminha.png in Resources */,
+				EC0128592C3769D50053C196 /* large_acai.png in Resources */,
+				EC0128532C3769D50053C196 /* gourmet.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +386,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC01287B2C376CDF0053C196 /* OrderType.swift in Sources */,
+				EC0128822C377D360053C196 /* CarouselItemView.swift in Sources */,
 				ECA36EDA2C36139E00FDF9DC /* ContentView.swift in Sources */,
+				EC01287D2C376D6D0053C196 /* DataSourceMock.swift in Sources */,
+				EC01287F2C3771C50053C196 /* OrderTypeView.swift in Sources */,
+				ECA36EEC2C361D7100FDF9DC /* OrderTypeGridView.swift in Sources */,
 				ECA36ED82C36139E00FDF9DC /* ChefDelivery_ProjectStudyApp.swift in Sources */,
+				ECA36EE92C36173400FDF9DC /* NavigationBar.swift in Sources */,
+				EC3A711D2C3CC7F8007F4F0A /* CarouselTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
