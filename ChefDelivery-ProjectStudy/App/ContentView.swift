@@ -17,6 +17,7 @@ struct ContentView: View {
                 VStack(spacing: 20) {
                     OrderTypeGridView()
                     CarouselTabView()
+                    StoresContainerView()
                 }
             }
         }
@@ -29,9 +30,3 @@ struct ContentView_Preview: PreviewProvider {
                 .previewLayout(.sizeThatFits)
     }
 }
-
-
-//#Preview {
-//    ContentView()
-//        .previewLayout(.sizeThatFits)
-//}

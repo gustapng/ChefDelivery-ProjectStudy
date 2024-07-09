@@ -58,6 +58,8 @@
 		EC01287F2C3771C50053C196 /* OrderTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC01287E2C3771C50053C196 /* OrderTypeView.swift */; };
 		EC0128822C377D360053C196 /* CarouselItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0128812C377D360053C196 /* CarouselItemView.swift */; };
 		EC3A711D2C3CC7F8007F4F0A /* CarouselTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A711C2C3CC7F8007F4F0A /* CarouselTabView.swift */; };
+		EC3A71202C3DE3D6007F4F0A /* StoreItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A711F2C3DE3D6007F4F0A /* StoreItemView.swift */; };
+		EC3A71222C3DE740007F4F0A /* StoresContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A71212C3DE740007F4F0A /* StoresContainerView.swift */; };
 		ECA36ED82C36139E00FDF9DC /* ChefDelivery_ProjectStudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA36ED72C36139E00FDF9DC /* ChefDelivery_ProjectStudyApp.swift */; };
 		ECA36EDA2C36139E00FDF9DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA36ED92C36139E00FDF9DC /* ContentView.swift */; };
 		ECA36EDF2C36139F00FDF9DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA36EDE2C36139F00FDF9DC /* Preview Assets.xcassets */; };
@@ -117,6 +119,8 @@
 		EC01287E2C3771C50053C196 /* OrderTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeView.swift; sourceTree = "<group>"; };
 		EC0128812C377D360053C196 /* CarouselItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselItemView.swift; sourceTree = "<group>"; };
 		EC3A711C2C3CC7F8007F4F0A /* CarouselTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabView.swift; sourceTree = "<group>"; };
+		EC3A711F2C3DE3D6007F4F0A /* StoreItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemView.swift; sourceTree = "<group>"; };
+		EC3A71212C3DE740007F4F0A /* StoresContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresContainerView.swift; sourceTree = "<group>"; };
 		ECA36ED42C36139E00FDF9DC /* ChefDelivery-ProjectStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChefDelivery-ProjectStudy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECA36ED72C36139E00FDF9DC /* ChefDelivery_ProjectStudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefDelivery_ProjectStudyApp.swift; sourceTree = "<group>"; };
 		ECA36ED92C36139E00FDF9DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -206,6 +210,15 @@
 			path = CarouselView;
 			sourceTree = "<group>";
 		};
+		EC3A711E2C3DE3AC007F4F0A /* StoresView */ = {
+			isa = PBXGroup;
+			children = (
+				EC3A711F2C3DE3D6007F4F0A /* StoreItemView.swift */,
+				EC3A71212C3DE740007F4F0A /* StoresContainerView.swift */,
+			);
+			path = StoresView;
+			sourceTree = "<group>";
+		};
 		ECA36ECB2C36139E00FDF9DC = {
 			isa = PBXGroup;
 			children = (
@@ -230,6 +243,7 @@
 				ECA36EE62C36170000FDF9DC /* NavigationBar */,
 				ECA36EEA2C361D4400FDF9DC /* GridView */,
 				EC0128802C377D0F0053C196 /* CarouselView */,
+				EC3A711E2C3DE3AC007F4F0A /* StoresView */,
 				EC0128772C376A570053C196 /* Assets.xcassets */,
 				EC01281C2C3769C40053C196 /* assets */,
 				ECA36EDD2C36139F00FDF9DC /* Preview Content */,
@@ -390,7 +404,9 @@
 				EC0128822C377D360053C196 /* CarouselItemView.swift in Sources */,
 				ECA36EDA2C36139E00FDF9DC /* ContentView.swift in Sources */,
 				EC01287D2C376D6D0053C196 /* DataSourceMock.swift in Sources */,
+				EC3A71222C3DE740007F4F0A /* StoresContainerView.swift in Sources */,
 				EC01287F2C3771C50053C196 /* OrderTypeView.swift in Sources */,
+				EC3A71202C3DE3D6007F4F0A /* StoreItemView.swift in Sources */,
 				ECA36EEC2C361D7100FDF9DC /* OrderTypeGridView.swift in Sources */,
 				ECA36ED82C36139E00FDF9DC /* ChefDelivery_ProjectStudyApp.swift in Sources */,
 				ECA36EE92C36173400FDF9DC /* NavigationBar.swift in Sources */,

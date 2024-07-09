@@ -26,7 +26,3 @@ struct CarouselItemView_Preview: PreviewProvider {
             .padding()
     }
 }
-
-//#Preview {
-//    CarouselItemView()
-//}

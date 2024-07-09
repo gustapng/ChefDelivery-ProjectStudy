@@ -31,8 +31,3 @@ struct OrderTypeGridView_Preview: PreviewProvider {
             .previewLayout(.sizeThatFits)
     }
 }
-
-//#Preview {
-//    OrderTypeGridView()
-//        .previewLayout(.sizeThatFits)
-//}

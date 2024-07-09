@@ -30,7 +30,3 @@ struct OrderTypeView_Preview: PreviewProvider {
             .previewLayout(.sizeThatFits)
     }
 }
-
-//#Preview {
-//    OrderTypeView(orderType: OrderType(id: 1, name: "Restaurantes", image: "hamburguer")).previewLayout(.sizeThatFits)
-//}

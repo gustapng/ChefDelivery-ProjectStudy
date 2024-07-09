@@ -36,9 +36,3 @@ struct NavigationBar_Preview: PreviewProvider {
                 .padding()
     }
 }
-
-//#Preview {
-//    NavigationBar()
-//        .previewLayout(.sizeThatFits)
-//        .padding()
-//}
