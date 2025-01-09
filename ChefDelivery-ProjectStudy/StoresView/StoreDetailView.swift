@@ -11,6 +11,7 @@ struct StoreDetailView: View {
 
     let store: StoreType
     @Environment(\.presentationMode) var presentationMode
+    @State private var selectedProduct: ProductType?
 
     var body: some View {
         ScrollView(showsIndicators: false) {
@@ -18,19 +19,19 @@ struct StoreDetailView: View {
                 Image(store.headerImage)
                     .resizable()
                     .scaledToFit()
-                
+
                 HStack {
                     Text(store.name)
                         .font(.title)
                         .bold()
-                    
+
                     Spacer()
-                    
+
                     Image(store.logoImage)
                 }
                 .padding(.vertical, 8)
                 .padding(.horizontal)
-                
+
                 HStack {
                     Text(store.location)
                     
@@ -42,36 +43,45 @@ struct StoreDetailView: View {
                 }
                 .padding(.vertical, 8)
                 .padding(.horizontal)
-                
+
                 Text("Produtos")
                     .font(.title2)
                     .bold()
                     .padding()
-                
+
                 ForEach(store.products) { product in
-                    HStack(spacing: 8) {
-                        VStack(alignment: .leading, spacing: 8) {
-                            Text(product.name)
-                                .bold()
-                            
-                            Text(product.description)
-                                .foregroundStyle(.black.opacity(0.5))
-                            
-                            Text("\(product.formattedPrice)")
+
+                    Button {
+                        selectedProduct = product
+                    } label: {
+                        HStack(spacing: 8) {
+                            VStack(alignment: .leading, spacing: 8) {
+                                Text(product.name)
+                                    .bold()
+
+                                Text(product.description)
+                                    .foregroundStyle(.black.opacity(0.5))
+                                    .multilineTextAlignment(.leading)
+
+                                Text("\(product.formattedPrice)")
+                            }
+
+                            Spacer()
+
+                            Image(product.image)
+                                .resizable()
+                                .scaledToFit()
+                                .cornerRadius(12)
+                                .frame(width: 120, height: 120)
+                                .shadow(color: .black.opacity(0.5), radius: 20, x: 6, y: 8)
                         }
-                        
-                        
-                        Spacer()
-                        
-                        Image(product.image)
-                            .resizable()
-                            .scaledToFit()
-                            .cornerRadius(12)
-                            .frame(width: 120, height: 120)
-                            .shadow(color: .black.opacity(0.5), radius: 20, x: 6, y: 8)
                     }
+                    .padding()
+                    .foregroundColor(.black)
+                    }
+                .sheet(item: $selectedProduct) { product in
+                    ProductDetailView(product: product)
                 }
-                .padding()
             }
             .navigationTitle(store.name)
             .navigationBarTitleDisplayMode(.inline)
