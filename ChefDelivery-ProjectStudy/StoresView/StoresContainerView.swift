@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct StoresContainerView: View {
-    
+
     let title = "Lojas"
     @State private var ratingFilter = 0
 
