@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ProductType: Identifiable {
+struct ProductType: Identifiable, Decodable {
     let id: Int
     let name: String
     let description: String
@@ -16,5 +16,9 @@ struct ProductType: Identifiable {
     
     var formattedPrice: String {
         return "R$" + price.formatPrice()
+    }
+    
+    private enum CodingKeys: String, CodingKey {
+        case id, name, description, image, price
     }
 }

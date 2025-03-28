@@ -23,6 +23,26 @@ struct ContentView: View {
                 }
             }
         }
+        .onAppear {
+            fetchData()
+        }
+    }
+
+    // MARK: Methods
+
+    func fetchData() {
+        guard let url = URL(string: "https://private-1ebe6-chefdelivery27.apiary-mock.com/home") else {
+            return
+        }
+
+        URLSession.shared.dataTask(with: url) { data, _, error in
+            if let error = error {
+                print(error.localizedDescription)
+            } else if let data = data {
+                let storeObjects = try? JSONDecoder().decode([StoreType].self, from: data)
+                print(storeObjects)
+            }
+        }.resume()
     }
 }
 
