@@ -8,41 +8,58 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    // MARK: - Attributes
+
+    private var service = HomeService()
+    @State private var storesType: [StoreType] = []
+    @State private var isLoading = true
+
+    // MARK: - Attributes
+
     var body: some View {
         NavigationView {
             VStack {
-                NavigationBar()
-                    .padding(.horizontal, 15)
-                
-                ScrollView(.vertical, showsIndicators: false) {
-                    VStack(spacing: 20) {
-                        OrderTypeGridView()
-                        CarouselTabView()
-                        StoresContainerView()
+                if isLoading {
+                    ProgressView()
+                } else {
+                    NavigationBar()
+                        .padding(.horizontal, 15)
+
+                    ScrollView(.vertical, showsIndicators: false) {
+                        VStack(spacing: 20) {
+                            OrderTypeGridView()
+                            CarouselTabView()
+                            StoresContainerView(stores: storesType)
+                        }
                     }
                 }
             }
         }
         .onAppear {
-            fetchData()
+            Task {
+                await getStores()
+            }
         }
     }
 
-    // MARK: Methods
+    // MARK: - Methods
 
-    func fetchData() {
-        guard let url = URL(string: "https://private-1ebe6-chefdelivery27.apiary-mock.com/home") else {
-            return
-        }
-
-        URLSession.shared.dataTask(with: url) { data, _, error in
-            if let error = error {
+    func getStores() async {
+        do {
+            let result = try await service.fetchData()
+            switch result {
+            case .success(let stores):
+                self.storesType = stores
+                self.isLoading = false
+            case .failure(let error):
                 print(error.localizedDescription)
-            } else if let data = data {
-                let storeObjects = try? JSONDecoder().decode([StoreType].self, from: data)
-                print(storeObjects)
+                self.isLoading = false
             }
-        }.resume()
+        } catch {
+            print(error.localizedDescription)
+            self.isLoading = false
+        }
     }
 }
 
